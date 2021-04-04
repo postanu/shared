@@ -1,0 +1,30 @@
+{
+  "name": "@postanu/types",
+  "version": "0.0.0",
+  "description": "Postanu shared types library",
+  "author": "Eduard Aksamitov <e@edaks.co>",
+  "license": "MIT",
+  "homepage": "https://postanu.com/",
+  "repository": "postanu/types",
+  "sideEffects": false,
+  "types": "./index.d.ts",
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@postanu/eslint-config": "^2.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-let": "^1.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-vue": "^7.8.0",
+    "typescript": "^4.2.3"
+  }
+}
