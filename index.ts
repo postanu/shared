@@ -9,7 +9,7 @@ export type Page = {
 	type: PageType
 	name: string
 	username: string
-	avatar_url: string
+	avatarUrl: string
 }
 
 export type PagesList = Page[]
