@@ -1,3 +1,11 @@
+export type User = {
+	id: string
+	username: string
+	firstName: string
+	lastName: string | null | undefined
+	avatarUrl: string | null | undefined
+}
+
 export type PageType =
 	| 'facebook'
 	| 'instagram'
