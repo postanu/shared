@@ -6,7 +6,7 @@ export type User = {
 	avatarUrl: string | null | undefined
 }
 
-export type PageType =
+export type PageNetwork =
 	| 'facebook'
 	| 'instagram'
 	| 'twitter'
@@ -14,8 +14,8 @@ export type PageType =
 
 export type Page = {
 	id: string
-	type: PageType
 	name: string
+	network: PageNetwork
 	username: string
 	avatarUrl: string
 }
@@ -23,7 +23,7 @@ export type Page = {
 export type PagesList = Page[]
 
 export type PagesGroup = {
-	name: PageType
+	name: PageNetwork
 	pages: PagesList
 }
 
