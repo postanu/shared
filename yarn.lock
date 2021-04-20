@@ -250,10 +250,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@postanu/eslint-config@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@postanu/eslint-config/-/eslint-config-2.3.0.tgz#4987ee2b53f9d8d9234b998b34ae051c345bc0b1"
-  integrity sha512-333MTqeU7GZfF7802s5eZrADdxdVA1Uujnq43CDmk/Kpvddml+niaHGUjvMsJMlyH6393U6DLID0jsGUHZx9Sg==
+"@postanu/eslint-config@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@postanu/eslint-config/-/eslint-config-3.0.0.tgz#04c081e134be09f8a884dd9e8753f78cafcaed60"
+  integrity sha512-LEEZ6tIfd6TUa7v9RQGELhamYJ1MrUAEyXAy02Oy9upTiOS39GKIZbZS7d/Nzu5eUpglqHtl1a16tV30PZRTUA==
 
 "@types/json-schema@^7.0.3":
   version "7.0.7"
