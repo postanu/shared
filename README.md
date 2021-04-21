@@ -1,4 +1,4 @@
-# @postanu/ui
+# @postanu/types
 
 Postanu shared types library
 
