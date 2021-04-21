@@ -6,6 +6,11 @@ export type User = {
 	avatarUrl?: string
 }
 
+export type Project = {
+	id: string
+	name: string
+}
+
 export type PageNetwork =
 	| 'facebook'
 	| 'instagram'
