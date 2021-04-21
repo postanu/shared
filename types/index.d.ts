@@ -2,8 +2,8 @@ export type User = {
 	id: string
 	username: string
 	firstName: string
-	lastName: string | null | undefined
-	avatarUrl: string | null | undefined
+	lastName?: string
+	avatarUrl?: string
 }
 
 export type PageNetwork =
@@ -17,7 +17,7 @@ export type Page = {
 	name: string
 	network: PageNetwork
 	username: string
-	avatarUrl: string
+	avatarUrl?: string
 }
 
 export type PagesList = Page[]
