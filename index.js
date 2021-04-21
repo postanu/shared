@@ -1,1 +1,4 @@
-export { createdUser } from './actions/index.js'
+export {
+	createdUser,
+	createdPage
+} from './actions/index.js'

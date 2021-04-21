@@ -9,5 +9,7 @@ export type {
 
 export {
 	createdUser,
-	createdUserAction
+	createdPage,
+	createdUserAction,
+	createdPageAction
 } from './actions/index.js'
