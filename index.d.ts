@@ -11,6 +11,7 @@ export type {
 export {
 	createdUser,
 	createdPage,
+	createProject,
 	createdProject,
 	createdUserAction,
 	createdPageAction,
