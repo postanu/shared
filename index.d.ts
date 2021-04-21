@@ -10,6 +10,8 @@ export type {
 export {
 	createdUser,
 	createdPage,
+	createdProject,
 	createdUserAction,
-	createdPageAction
+	createdPageAction,
+	createdProjectAction
 } from './actions/index.js'

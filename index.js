@@ -1,4 +1,5 @@
 export {
 	createdUser,
-	createdPage
+	createdPage,
+	createdProject
 } from './actions/index.js'
