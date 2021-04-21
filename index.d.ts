@@ -1,6 +1,7 @@
 export type {
 	User,
 	Page,
+	Project,
 	PagesList,
 	PagesGroup,
 	PageNetwork,
