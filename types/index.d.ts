@@ -9,6 +9,8 @@ export type User = {
 export type Project = {
 	id: string
 	name: string
+	pages: PagesList
+	members: Array<User & { role: string }>
 }
 
 export type PageNetwork =
