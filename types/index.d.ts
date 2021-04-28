@@ -1,4 +1,4 @@
-export type User = {
+export interface User {
 	id: string
 	username: string
 	firstName: string
@@ -6,11 +6,15 @@ export type User = {
 	avatarUrl?: string
 }
 
-export type Project = {
+export interface ProjectMember extends User {
+	role: string
+}
+
+export interface Project {
 	id: string
 	name: string
 	pages: PagesList
-	members: Array<User & { role: string }>
+	members: ProjectMember[]
 }
 
 export type PageNetwork =
@@ -19,7 +23,7 @@ export type PageNetwork =
 	| 'twitter'
 	| 'vk'
 
-export type Page = {
+export interface Page {
 	id: string
 	name: string
 	network: PageNetwork
@@ -29,7 +33,7 @@ export type Page = {
 
 export type PagesList = Page[]
 
-export type PagesGroup = {
+export interface PagesGroup {
 	name: PageNetwork
 	pages: PagesList
 }
