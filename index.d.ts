@@ -5,7 +5,8 @@ export type {
 	PagesList,
 	PagesGroup,
 	PageNetwork,
-	GroupedPages
+	GroupedPages,
+	ProjectMember
 } from './types/index.js'
 
 export {
