@@ -13,8 +13,12 @@ export interface ProjectMember extends User {
 export interface Project {
 	id: string
 	name: string
-	pages: PagesList
-	members: ProjectMember[]
+	pages: {
+		[id: string]: Page
+	}
+	members: {
+		[id: string]: ProjectMember
+	}
 }
 
 export type PageNetwork =
