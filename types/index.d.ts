@@ -13,12 +13,6 @@ export type ProjectMember = User & {
 export type Project = {
 	id: string
 	name: string
-	pages: {
-		[id: string]: Page
-	}
-	members: {
-		[id: string]: ProjectMember
-	}
 }
 
 export type PageNetwork =
