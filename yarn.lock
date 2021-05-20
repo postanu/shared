@@ -224,9 +224,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@logux/actions@logux/actions":
-  version "0.0.0"
-  resolved "https://codeload.github.com/logux/actions/tar.gz/3926be005f94d0a6c48684b710a0eb5e1aba5297"
+"@logux/actions@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@logux/actions/-/actions-0.2.0.tgz#ba09a8b6e73f7c303f1103000ae455ceb09c6c95"
+  integrity sha512-i1occXt0XcJXHI2wsq/soZiMGd+CpyeKfxnF0WCY0VfMJiYSObBl7v0jEXQuFgBVWcK1CR2b6DLkdVOYvWC45Q==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
