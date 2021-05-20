@@ -10,7 +10,7 @@
   "types": "./index.d.ts",
   "type": "module",
   "engines": {
-    "node": ">=14.0.0"
+    "node": "^14.0.0 || >=16.0.0"
   },
   "dependencies": {
     "@logux/actions": "^0.2.0"
