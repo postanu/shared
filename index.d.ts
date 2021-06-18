@@ -12,6 +12,7 @@ export type {
 export {
 	createdUser,
 	createdPage,
+	deletePage,
 	createProject,
 	createdProject,
 	createdUserAction,
