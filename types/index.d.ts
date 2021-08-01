@@ -21,6 +21,11 @@ export type PageNetwork =
 	| 'twitter'
 	| 'vk'
 
+export type PageStatus =
+	| 0
+	| 100
+	| 200
+
 export type Page = {
 	id: string
 	projectId: string
@@ -28,6 +33,7 @@ export type Page = {
 	network: PageNetwork
 	username: string
 	avatarUrl?: string
+	status: PageStatus
 	meta?: {
 		[extra: string]: any
 	}
