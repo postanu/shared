@@ -28,6 +28,9 @@ export type Page = {
 	network: PageNetwork
 	username: string
 	avatarUrl?: string
+	meta?: {
+		[extra: string]: any
+	}
 }
 
 export type PagesList = Page[]

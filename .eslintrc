@@ -1,6 +1,7 @@
 {
 	"extends": "@postanu/eslint-config/ts",
 	"rules": {
-		"import/named": "off"
+		"import/named": "off",
+		"@typescript-eslint/no-explicit-any": "off"
 	}
 }
