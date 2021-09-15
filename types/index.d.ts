@@ -34,6 +34,7 @@ export type Page = {
 	username: string
 	avatarUrl?: string
 	status: PageStatus
+	solo: boolean
 	meta?: {
 		[extra: string]: any
 	}
