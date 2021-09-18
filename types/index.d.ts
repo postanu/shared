@@ -40,11 +40,9 @@ export type Page = {
 	}
 }
 
-export type PagesList = Page[]
-
 export type PagesGroup = {
 	name: PageNetwork
-	pages: PagesList
+	pages: Page[]
 }
 
 export type GroupedPages = PagesGroup[]
