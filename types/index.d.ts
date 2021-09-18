@@ -43,6 +43,7 @@ export type Page = {
 export type PagesGroup = {
 	name: PageNetwork
 	pages: Page[]
+	isSolo: boolean
 }
 
 export type GroupedPages = PagesGroup[]
