@@ -46,4 +46,10 @@ export type PagesGroup = {
 	isSolo: boolean
 }
 
-export type GroupedPages = PagesGroup[]
+export type AttachmentType = 'image'
+
+export type Attachment = {
+	id: string
+	type: AttachmentType
+	url: string
+}
