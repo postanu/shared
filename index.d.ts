@@ -2,11 +2,11 @@ export type {
 	User,
 	Page,
 	Project,
-	PagesList,
+	Attachment,
 	PagesGroup,
 	PageNetwork,
-	GroupedPages,
-	ProjectMember
+	ProjectMember,
+	AttachmentType
 } from './types/index.js'
 
 export {
