@@ -1,11 +1,14 @@
 export type {
 	User,
 	Page,
-	Project,
-	Attachment,
 	PagesGroup,
 	PageNetwork,
+	Project,
 	ProjectMember,
+	Post,
+	PostState,
+	PostVariant,
+	Attachment,
 	AttachmentType
 } from './types/index.js'
 
