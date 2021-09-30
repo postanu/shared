@@ -1,5 +1,7 @@
 export {
+	createUser,
 	createdUser,
+	createPage,
 	createdPage,
 	deletePage,
 	createProject,

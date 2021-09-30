@@ -13,7 +13,9 @@ export type {
 } from './types/index.js'
 
 export {
+	createUser,
 	createdUser,
+	createPage,
 	createdPage,
 	deletePage,
 	createProject,
