@@ -34,9 +34,6 @@ export type Page = {
 	username: string
 	avatarUrl?: string
 	status: PageStatus
-	meta?: {
-		[extra: string]: any
-	}
 }
 
 export type PagesGroup = {
