@@ -2,6 +2,7 @@ import type {
 	ActionCreator,
 	SyncMapCreateAction,
 	SyncMapDeleteAction,
+	SyncMapChangeAction,
 	SyncMapCreatedAction
 } from '@logux/actions'
 
@@ -15,6 +16,7 @@ export type createdPageAction = SyncMapCreatedAction<Page>
 
 export type createProjectAction = SyncMapCreateAction<Project>
 export type createdProjectAction = SyncMapCreatedAction<Project>
+export type changeProjectAction = SyncMapChangeAction<Project>
 
 export const createUser: ActionCreator<createUserAction>
 export const createdUser: ActionCreator<createdUserAction>
@@ -25,3 +27,4 @@ export const deletePage: ActionCreator<SyncMapDeleteAction>
 
 export const createProject: ActionCreator<createProjectAction>
 export const createdProject: ActionCreator<createdProjectAction>
+export const changeProject: ActionCreator<changeProjectAction>

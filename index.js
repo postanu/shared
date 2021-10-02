@@ -5,5 +5,6 @@ export {
 	createdPage,
 	deletePage,
 	createProject,
-	createdProject
+	createdProject,
+	changeProject
 } from './actions/index.js'

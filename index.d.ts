@@ -20,9 +20,11 @@ export {
 	deletePage,
 	createProject,
 	createdProject,
+	changeProject,
 	createUserAction,
 	createdUserAction,
 	createPageAction,
 	createdPageAction,
-	createdProjectAction
+	createdProjectAction,
+	changeProjectAction
 } from './actions/index.js'
