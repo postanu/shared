@@ -13,6 +13,7 @@ export type ProjectMember = User & {
 export type Project = {
 	id: string
 	name: string
+	installed: boolean
 }
 
 export type PageNetwork =
