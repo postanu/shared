@@ -1,30 +1,5 @@
-export type {
-	User,
-	Page,
-	PagesGroup,
-	PageNetwork,
-	Project,
-	ProjectMember,
-	Post,
-	PostState,
-	PostVariant,
-	Attachment,
-	AttachmentType
-} from './types/index.js'
-
-export {
-	createUser,
-	createdUser,
-	createPage,
-	createdPage,
-	deletePage,
-	createProject,
-	createdProject,
-	changeProject,
-	createUserAction,
-	createdUserAction,
-	createPageAction,
-	createdPageAction,
-	createdProjectAction,
-	changeProjectAction
-} from './actions/index.js'
+export type { Page, PagesGroup, PageNetwork, PageStatus } from './page'
+export type { Attachment, AttachmentType } from './attachment'
+export type { Post, PostState, PostVariant } from './post'
+export type { Project, ProjectMember } from './project'
+export type { User } from './user'
