@@ -1,5 +1,6 @@
 export type Page = {
 	id: string
+	projectId: string
 	name: string
 	network: PageNetwork
 	username: string
