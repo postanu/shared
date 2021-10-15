@@ -1,4 +1,4 @@
-export type { Page, PagesGroup, PageNetwork, PageStatus } from './page'
+export type { ClientPage, Page, PagesGroup, PageNetwork, PageStatus } from './page'
 export type { Attachment, AttachmentType } from './attachment'
 export type { Post, PostState, PostVariant } from './post'
 export type { Project, ProjectMember } from './project'
