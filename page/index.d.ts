@@ -8,6 +8,10 @@ export type Page = {
 	status: PageStatus
 }
 
+export type ClientPage = Page & {
+	isSolo: boolean
+}
+
 export type PagesGroup = {
 	name: PageNetwork
 	pages: Page[]
