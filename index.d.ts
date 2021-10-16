@@ -1,5 +1,6 @@
 export type { ClientPage, Page, PagesGroup, PageNetwork, PageStatus } from './page'
-export type { Attachment, AttachmentType } from './attachment'
+export type { Refable, MaybeRef, MaybeReadonly } from './vue'
 export type { Post, PostState, PostVariant } from './post'
+export type { Attachment, AttachmentType } from './attachment'
 export type { Project, ProjectMember } from './project'
 export type { User } from './user'
