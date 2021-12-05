@@ -1,6 +1,6 @@
 {
   "name": "@postanu/types",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Postanu shared types library",
   "author": "Eduard Aksamitov <e@edaks.co>",
   "license": "MIT",
