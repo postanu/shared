@@ -5,6 +5,6 @@ Postanu shared types library
 ## Install
 
 ```sh
-yarn add @postanu/types
+pnpm add @postanu/types
 ```
 
