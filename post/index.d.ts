@@ -1,20 +1,31 @@
+import {
+	POST_STATE_SCHEDULED,
+	POST_STATE_REMOVED,
+	POST_STATE_CREATED,
+	POST_STATE_ERRORED,
+	POST_STATE_POSTED
+} from '@postanu/core'
+
 export type Post = {
 	id: string
 	authorId: string
 	projectId: string
 	time: number
+	type: number
 	authorsIds: string[]
-	variants: PostVariant[]
+	variantsIds: string[]
 	state: PostState
 }
 
 export type PostVariant = {
+	id: string
 	text: string
 	pagesIds: string[]
-	attachmentsIds: string[]
 }
 
 export type PostState =
-	| 0
-	| 100
-	| 200
+	| typeof POST_STATE_CREATED
+	| typeof POST_STATE_REMOVED
+	| typeof POST_STATE_SCHEDULED
+	| typeof POST_STATE_ERRORED
+	| typeof POST_STATE_POSTED

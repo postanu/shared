@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@postanu/core': ^0.2.0
   '@postanu/eslint-config': ^3.2.0
   '@typescript-eslint/eslint-plugin': ^5.3.0
   '@typescript-eslint/parser': ^5.3.0
@@ -16,6 +17,7 @@ specifiers:
   vue: ^3.2.20
 
 devDependencies:
+  '@postanu/core': 0.2.0
   '@postanu/eslint-config': 3.2.0_687da46a550b3f3ce872c00d7a4983e0
   '@typescript-eslint/eslint-plugin': 5.3.0_f8873316f48f7781ccc3e081fc76e214
   '@typescript-eslint/parser': 5.3.0_eslint@8.1.0+typescript@4.4.4
@@ -310,6 +312,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@postanu/core/0.2.0:
+    resolution: {integrity: sha512-IL75QXgdU/owmGvcwK7hhBW0N1p3lflCC3kJRibDxcOuuorTS/xra4VaM2akSttJb6dnm4J8lk5Pc8aR8aKrmg==}
     dev: true
 
   /@postanu/eslint-config/3.2.0_687da46a550b3f3ce872c00d7a4983e0:
