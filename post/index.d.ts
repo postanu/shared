@@ -19,8 +19,9 @@ export type Post = {
 
 export type PostVariant = {
 	id: string
-	text: string
 	pagesIds: string[]
+	text: string
+	attachmentsIds: string[]
 }
 
 export type PostState =
