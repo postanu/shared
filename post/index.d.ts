@@ -12,7 +12,6 @@ export type Post = {
 	projectId: string
 	time: number
 	type: number
-	authorsIds: string[]
 	variantsIds: string[]
 	state: PostState
 }
