@@ -1,4 +1,4 @@
-export type Page = {
+export interface PageFields {
 	id: string
 	projectId: string
 	name: string
@@ -8,11 +8,13 @@ export type Page = {
 	status: PageStatus
 }
 
+export type Page = { id: string } & PageFields
+
 export type ClientPage = Page & {
 	isSolo: boolean
 }
 
-export type PagesGroup = {
+export interface PagesGroup {
 	name: PageNetwork
 	pages: Page[]
 	isSolo: boolean

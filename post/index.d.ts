@@ -6,7 +6,7 @@ import {
 	POST_STATE_POSTED
 } from '@postanu/core'
 
-export type Post = {
+export interface PostFields {
 	id: string
 	authorId: string
 	projectId: string
@@ -15,7 +15,9 @@ export type Post = {
 	state: PostState
 }
 
-export type PostVariant = {
+export type Post = { id: string } & PostFields
+
+export interface PostVariant {
 	id: string
 	postId: string
 	pagesIds: string[]
