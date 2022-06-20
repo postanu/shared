@@ -1,4 +1,4 @@
-export interface UserFields {
+export type UserFields = {
 	id: string
 	username: string
 	firstName: string

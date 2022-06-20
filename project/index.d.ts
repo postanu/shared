@@ -1,6 +1,6 @@
 import { User } from '../user/index.js'
 
-export interface ProjectFields {
+export type ProjectFields = {
 	name: string
 	installed: boolean
 }
