@@ -1,5 +1,4 @@
 export type PageFields = {
-	id: string
 	projectId: string
 	name: string
 	network: PageNetwork
