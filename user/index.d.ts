@@ -1,8 +1,7 @@
 export type UserFields = {
 	username: string
-	firstName: string
-	lastName?: string
-	avatarUrl?: string
+	fullname: string
+	avatarUrl?: string | null
 }
 
 export type User = { id: string } & UserFields
