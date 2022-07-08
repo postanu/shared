@@ -1,4 +1,4 @@
-import { User } from '../user/index.js'
+import type { User } from '../user/index.js'
 
 export type ProjectFields = {
 	name: string

@@ -1,6 +1,6 @@
 {
 	"extends": "@postanu/eslint-config/ts",
 	"rules": {
-		"import/extensions": "off"
+		"@typescript-eslint/consistent-type-definitions": "off"
 	}
 }
