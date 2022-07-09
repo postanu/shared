@@ -20,7 +20,8 @@ export type Post = { id: string } & PostFields
 export type PostFields = {
 	projectId: string
 	state: PostState
-	date: number
+	date: string
+	time: string
 	title?: string
 }
 
