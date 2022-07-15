@@ -1,5 +1,5 @@
+export type { Post, PostFields, PostState, PostVariant, PostVariantFields, PostVariantState } from './post/index.js'
 export type { ClientPage, Page, PageFields, PagesGroup, PageNetwork, PageStatus } from './page/index.js'
-export type { Post, PostFields, PostState, PostVariant } from './post/index.js'
 export type { Project, ProjectFields, ProjectMember } from './project/index.js'
 export type { Refable, MaybeRef, MaybeReadonly } from './vue/index.js'
 export type { Attachment, AttachmentType } from './attachment/index.js'

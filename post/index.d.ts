@@ -25,10 +25,15 @@ export type PostFields = {
 	title?: string
 }
 
+export type PostVariantState =
+	| typeof POST_STATE_CREATED
+	| typeof POST_STATE_ERRORED
+	| typeof POST_STATE_PUBLISHED
+
 export type PostVariant = { id: string } & PostVariantFields
 
 export type PostVariantFields = {
 	postId: string
 	pagesIds: string[]
-	state: PostState
+	state: PostVariantState
 }
