@@ -19,21 +19,7 @@ export type Post = { id: string } & PostFields
 
 export type PostFields = {
 	projectId: string
-	state: PostState
 	date: string
 	time: string
-	title?: string
-}
-
-export type PostVariantState =
-	| typeof POST_STATE_CREATED
-	| typeof POST_STATE_ERRORED
-	| typeof POST_STATE_PUBLISHED
-
-export type PostVariant = { id: string } & PostVariantFields
-
-export type PostVariantFields = {
-	postId: string
-	pagesIds: string[]
-	state: PostVariantState
+	state: PostState
 }
