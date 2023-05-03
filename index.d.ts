@@ -1,3 +1,4 @@
+export * from './user-settings/index.js'
 export * from './post-variant/index.js'
 export * from './attachment/index.js'
 export * from './project/index.js'
