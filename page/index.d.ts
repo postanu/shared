@@ -2,7 +2,7 @@ export type PageFields = {
 	projectId: string
 	name: string
 	network: PageNetwork
-	username: string
+	username: null | string
 	avatar: null | string
 	status: PageStatus
 }
