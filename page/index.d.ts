@@ -1,3 +1,5 @@
+import type { NETWORKS_ORDER } from '@postanu/core'
+
 export type PageFields = {
 	projectId: string
 	name: string
@@ -19,11 +21,7 @@ export type PagesGroup = {
 	isSolo: boolean
 }
 
-export type PageNetwork =
-	| 'facebook'
-	| 'instagram'
-	| 'twitter'
-	| 'vk'
+export type PageNetwork = typeof NETWORKS_ORDER[number]
 
 export type PageStatus =
 	| 0
