@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^0.7.0
     version: 0.7.0(nanoid@5.0.1)
   '@postanu/eslint-config':
-    specifier: ^4.0.1
-    version: 4.0.1(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.7.0)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.49.0)(typescript@5.2.2)
+    specifier: ^4.1.1
+    version: 4.1.1(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.7.0)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.49.0)(typescript@5.2.2)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.7.0
     version: 6.7.0(@typescript-eslint/parser@6.7.0)(eslint@8.49.0)(typescript@5.2.2)
@@ -169,23 +169,23 @@ packages:
       nanoid: 5.0.1
     dev: true
 
-  /@postanu/eslint-config@4.0.1(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.7.0)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.49.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-lBFE22tXQvKfyOuAxkm7EpEcnPMGYmKWI2m9SaTQokHc2ubQRuKmO1Vsg/TUgnQi84jF2YY43/K3RKGQo4mAwg==}
+  /@postanu/eslint-config@4.1.1(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.7.0)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.49.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-3Ot679V1rLFjEq8xHuRntvG49FNbFB4BykZJ2fGutR8hPmSnce0SaegZAOTvPHdmaimmfaaIhM3tz5skNEiqwA==}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': '>=5.62.0'
-      '@typescript-eslint/parser': '>=5.62.0'
-      eslint: '>=8.44.0'
+      '@typescript-eslint/eslint-plugin': '>=6.7.0'
+      '@typescript-eslint/parser': '>=6.7.0'
+      eslint: '>=8.49.0'
       eslint-config-standard: '>=17.1.0'
-      eslint-plugin-import: '>=2.27.5'
-      eslint-plugin-n: '>=16.0.1'
-      eslint-plugin-perfectionist: '>=1.4.0'
+      eslint-plugin-import: '>=2.28.1'
+      eslint-plugin-n: '>=16.1.0'
+      eslint-plugin-perfectionist: '>=2.1.0'
       eslint-plugin-prefer-let: '>=3.0.1'
       eslint-plugin-promise: '>=6.1.1'
       eslint-plugin-security: '>=1.7.1'
-      eslint-plugin-unicorn: '>=47.0.0'
-      eslint-plugin-vue: '>=9.15.1'
+      eslint-plugin-unicorn: '>=48.0.1'
+      eslint-plugin-vue: '>=9.17.0'
       eslint-plugin-vue-pug: '>=0.6.0'
-      typescript: '>=5.1.6'
+      typescript: '>=5.2.2'
       vue-eslint-parser: '>=9.3.1'
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
@@ -205,7 +205,7 @@ packages:
       '@typescript-eslint/parser': 6.7.0(eslint@8.49.0)(typescript@5.2.2)
       eslint: 8.49.0
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-promise@6.1.1)(eslint@8.49.0)
-      eslint-define-config: 1.21.0
+      eslint-define-config: 1.23.0
       eslint-plugin-import: 2.28.1(@typescript-eslint/parser@6.7.0)(eslint@8.49.0)
       eslint-plugin-n: 16.1.0(eslint@8.49.0)
       eslint-plugin-perfectionist: 2.1.0(eslint@8.49.0)(typescript@5.2.2)
@@ -757,8 +757,8 @@ packages:
       eslint-plugin-promise: 6.1.1(eslint@8.49.0)
     dev: true
 
-  /eslint-define-config@1.21.0:
-    resolution: {integrity: sha512-OKfreV19Nw4yK4UX1CDkv5FXWdzeF+VSROsO28DVi1BrzqOD4a3U71LJqEhcupK65MoLXxARQ0pSg8bDvNPONA==}
+  /eslint-define-config@1.23.0:
+    resolution: {integrity: sha512-4mMyu0JuBkQHsCtR+42irIQdFLmLIW+pMAVcyOV/gZRL4O1R8iuH0eMG3oL3Cbi1eo9fDAfT5CIHVHgdyxcf6w==}
     engines: {node: ^16.13.0 || >=18.0.0, npm: '>=7.0.0', pnpm: '>= 8.6.0'}
     dev: true
 
