@@ -19,5 +19,4 @@ export type PostVariantFields = {
 	attachments: string[]
 	index: number
 	state: PostVariantState
-	publishedAt: string
 }
