@@ -7,5 +7,4 @@ export type PostsActivityFields = {
 	type: PostsActivityType
 	message: string
 	args: string
-	time: string
 }
