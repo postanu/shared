@@ -4,7 +4,7 @@ export type ProjectFields = {
 	name: string
 	installed: boolean
 	timezone: string
-	queueEnd: null | string
+	lastPostDate: null | string
 }
 
 export type Project = { id: string } & ProjectFields
