@@ -15,11 +15,11 @@ export type PostState =
 	| typeof POST_STATE_REMOVED
 	| typeof POST_STATE_SCHEDULED
 
-export type Post = { id: string } & PostFields
-
 export type PostFields = {
 	projectId: string
 	date: string
 	time: string
 	state: PostState
 }
+
+export type Post = { id: string } & PostFields

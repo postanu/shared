@@ -1,5 +1,3 @@
-export type PostsActivity = { id: string } & PostsActivityFields
-
 export type PostsActivityActionMessage =
 	| 'post/created'
 	| 'post/edited/date'
@@ -27,3 +25,5 @@ export type PostsActivityMessageFields = {
 export type PostsActivityFields =
 	| PostsActivityActionFields
 	| PostsActivityMessageFields
+
+export type PostsActivity = { id: string } & PostsActivityFields

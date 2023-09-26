@@ -9,8 +9,6 @@ export type PostVariantState =
 	| typeof POST_STATE_ERRORED
 	| typeof POST_STATE_PUBLISHED
 
-export type PostVariant = { id: string } & PostVariantFields
-
 export type PostVariantFields = {
 	postId: string
 	pagesIds: string[]
@@ -20,3 +18,5 @@ export type PostVariantFields = {
 	index: number
 	state: PostVariantState
 }
+
+export type PostVariant = { id: string } & PostVariantFields
