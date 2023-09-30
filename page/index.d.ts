@@ -1,5 +1,3 @@
-import type { NETWORKS_ORDER } from '@postanu/core'
-
 export enum PageStatus {
 	connected = 100,
 	disconnected = 200
@@ -11,7 +9,16 @@ export type PagesGroup = {
 	isSolo: boolean
 }
 
-export type PageNetwork = typeof NETWORKS_ORDER[number]
+export type PageNetwork =
+	| 'facebook'
+	| 'instagram'
+	| 'linkedin'
+	| 'pinterest'
+	| 'telegram'
+	| 'threads'
+	| 'twitter'
+	| 'vk'
+	| 'youtube'
 
 export type PageFields = {
 	projectId: string
