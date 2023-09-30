@@ -9,7 +9,7 @@
   "license": "MIT",
   "homepage": "https://postanu.com/",
   "repository": "postanu/types",
-  "types": "./index.d.ts",
+  "types": "./index.ts",
   "devDependencies": {
     "@postanu/eslint-config": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
