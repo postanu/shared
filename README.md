@@ -1,6 +1,6 @@
 # @postanu/types
 
-Postanu shared types library
+Postanu shared library
 
 ## Install
 

@@ -1,7 +1,7 @@
 {
   "name": "@postanu/types",
   "version": "0.14.2",
-  "description": "Postanu shared types library",
+  "description": "Postanu shared library",
   "scripts": {
     "test": "eslint ."
   },
@@ -9,7 +9,13 @@
   "license": "MIT",
   "homepage": "https://postanu.com/",
   "repository": "postanu/types",
+  "sideEffects": false,
+  "type": "module",
   "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./package.json": "./package.json"
+  },
   "devDependencies": {
     "@postanu/eslint-config": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
