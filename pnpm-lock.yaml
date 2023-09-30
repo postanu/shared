@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^0.8.0
     version: 0.8.0(nanoid@5.0.1)
   '@postanu/eslint-config':
-    specifier: ^4.1.1
-    version: 4.1.1(@typescript-eslint/eslint-plugin@6.7.3)(@typescript-eslint/parser@6.7.3)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.50.0)(typescript@5.2.2)
+    specifier: ^4.2.0
+    version: 4.2.0(@typescript-eslint/eslint-plugin@6.7.3)(@typescript-eslint/parser@6.7.3)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.50.0)(typescript@5.2.2)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.7.3
     version: 6.7.3(@typescript-eslint/parser@6.7.3)(eslint@8.50.0)(typescript@5.2.2)
@@ -174,8 +174,8 @@ packages:
       nanoid: 5.0.1
     dev: true
 
-  /@postanu/eslint-config@4.1.1(@typescript-eslint/eslint-plugin@6.7.3)(@typescript-eslint/parser@6.7.3)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.50.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-3Ot679V1rLFjEq8xHuRntvG49FNbFB4BykZJ2fGutR8hPmSnce0SaegZAOTvPHdmaimmfaaIhM3tz5skNEiqwA==}
+  /@postanu/eslint-config@4.2.0(@typescript-eslint/eslint-plugin@6.7.3)(@typescript-eslint/parser@6.7.3)(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-perfectionist@2.1.0)(eslint-plugin-prefer-let@3.0.1)(eslint-plugin-promise@6.1.1)(eslint-plugin-security@1.7.1)(eslint-plugin-unicorn@48.0.1)(eslint@8.50.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-gPXWGPd/goFNXDfxODs4RerM1af4IHVmrFSmZ6kiU78z62gDET63nrFAwYkn/6tRew7yZ8jBXpIcWax938aeAQ==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>=6.7.0'
       '@typescript-eslint/parser': '>=6.7.0'
