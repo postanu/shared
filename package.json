@@ -11,14 +11,14 @@
   "repository": "postanu/types",
   "types": "./index.d.ts",
   "peerDependencies": {
-    "@postanu/core": ">=0.7.0"
+    "@postanu/core": ">=0.8.0"
   },
   "devDependencies": {
-    "@postanu/core": "^0.7.0",
+    "@postanu/core": "^0.8.0",
     "@postanu/eslint-config": "^4.1.1",
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
-    "eslint": "^8.49.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-n": "^16.1.0",
