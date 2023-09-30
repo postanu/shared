@@ -1,6 +1,7 @@
 {
 	"extends": "@postanu/eslint-config/ts",
 	"rules": {
-		"@typescript-eslint/consistent-type-definitions": "off"
+		"@typescript-eslint/consistent-type-definitions": "off",
+		"perfectionist/sort-enums": "off"
 	}
 }

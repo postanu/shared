@@ -1,9 +1,9 @@
 import type { NETWORKS_ORDER } from '@postanu/core'
 
-export type PageStatus =
-	| 0
-	| 100
-	| 200
+export enum PageStatus {
+	connected = 100,
+	disconnected = 200
+}
 
 export type PagesGroup = {
 	name: PageNetwork

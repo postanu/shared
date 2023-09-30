@@ -1,19 +1,12 @@
-import type {
-	POST_STATE_ARCHIVED,
-	POST_STATE_CREATED,
-	POST_STATE_ERRORED,
-	POST_STATE_PUBLISHED,
-	POST_STATE_REMOVED,
-	POST_STATE_SCHEDULED
-} from '@postanu/core'
+export enum PostState {
+	created = 100,
+	scheduled = 101,
+	published = 102,
 
-export type PostState =
-	| typeof POST_STATE_ARCHIVED
-	| typeof POST_STATE_CREATED
-	| typeof POST_STATE_ERRORED
-	| typeof POST_STATE_PUBLISHED
-	| typeof POST_STATE_REMOVED
-	| typeof POST_STATE_SCHEDULED
+	errored = 200,
+
+	archived = 300
+}
 
 export type PostFields = {
 	projectId: string

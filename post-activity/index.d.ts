@@ -1,29 +1,25 @@
-export type PostsActivityActionMessage =
-	| 'post/created'
-	| 'post/edited/date'
-	| 'post/edited/time'
-	| 'post/edited/variant/pages'
-	| 'post/edited/variant/text'
-	| 'post/review/accepted'
-	| 'post/review/rejected'
-	| 'post/review/requested'
+export enum PostActivityType {
+	message = 0,
 
-export type PostsActivityActionFields = {
-	postId: string
-	type: 'action'
-	message: PostsActivityActionMessage
-	args: string
+	created = 100,
+	scheduled = 101,
+
+	changedDate = 200,
+	changedTime = 201,
+	changedVariantPages = 202,
+	changedVariantText = 203,
+	changedVariantAttachments = 204,
+
+	reviewRequested = 300,
+	reviewAccepted = 301,
+	reviewRejected = 302
 }
 
-export type PostsActivityMessageFields = {
+export type PostActivityFields = {
 	postId: string
-	type: 'message'
-	message: string
-	args: null
+	type: PostActivityType
+	message: null | string
+	args: null | string
 }
 
-export type PostsActivityFields =
-	| PostsActivityActionFields
-	| PostsActivityMessageFields
-
-export type PostsActivity = { id: string } & PostsActivityFields
+export type PostsActivity = { id: string } & PostActivityFields

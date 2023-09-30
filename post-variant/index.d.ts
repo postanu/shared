@@ -1,13 +1,10 @@
-import type {
-	POST_STATE_CREATED,
-	POST_STATE_ERRORED,
-	POST_STATE_PUBLISHED
-} from '@postanu/core'
+export enum PostVariantState {
+	created = 100,
+	scheduled = 101,
+	published = 102,
 
-export type PostVariantState =
-	| typeof POST_STATE_CREATED
-	| typeof POST_STATE_ERRORED
-	| typeof POST_STATE_PUBLISHED
+	errored = 200
+}
 
 export type PostVariantFields = {
 	postId: string
