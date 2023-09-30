@@ -22,4 +22,4 @@ export type PostActivityFields = {
 	args: null | string
 }
 
-export type PostsActivity = { id: string } & PostActivityFields
+export type PostActivity = { id: string } & PostActivityFields
