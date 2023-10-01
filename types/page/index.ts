@@ -1,4 +1,4 @@
-import type { NETWORKS } from '../constants/index.js'
+import type { NETWORKS } from '../../constants/index.js'
 
 export enum PageStatus {
 	connected = 100,
