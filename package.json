@@ -1,5 +1,5 @@
 {
-  "name": "@postanu/types",
+  "name": "@postanu/shared",
   "version": "0.14.4",
   "description": "Postanu shared library",
   "scripts": {
@@ -8,7 +8,7 @@
   "author": "Eduard Aksamitov <e@euaaaio.ru>",
   "license": "MIT",
   "homepage": "https://postanu.com/",
-  "repository": "postanu/types",
+  "repository": "postanu/shared",
   "sideEffects": false,
   "type": "module",
   "types": "./index.ts",
