@@ -1,10 +1,10 @@
-# @postanu/types
+# @postanu/shared
 
-Postanu shared library
+Postanu shared types and utils library
 
 ## Install
 
 ```sh
-pnpm add @postanu/types
+pnpm add @postanu/shared
 ```
 
