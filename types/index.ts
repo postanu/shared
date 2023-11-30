@@ -1,6 +1,5 @@
 export * from './post-activity/index.js'
 export * from './post-variant/index.js'
-export * from './post-page/index.js'
 export * from './attachment/index.js'
 export * from './project/index.js'
 export * from './user/index.js'
