@@ -8,7 +8,7 @@ export enum PostVariantState {
 
 export type PostVariantFields = {
 	postId: string
-	pagesIds: string[]
+	pages: string[]
 	text: string
 	url: string
 	attachments: string[]
