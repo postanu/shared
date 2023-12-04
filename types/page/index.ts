@@ -6,9 +6,8 @@ export enum PageStatus {
 }
 
 export type PagesGroup = {
-	name: PageNetwork
+	network: PageNetwork
 	pages: Page[]
-	isSolo: boolean
 }
 
 export type PageNetwork = typeof NETWORKS[number]
