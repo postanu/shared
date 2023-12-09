@@ -1,8 +1,15 @@
-export type Attachment = {
-	id: string
-	postId: string
-	type: AttachmentType
-	url: string
+export enum AttachmentType {
+	image = 100,
+	disconnected = 200
 }
 
-export type AttachmentType = 'image'
+export type AttachmentFields = {
+	id: string
+	projectId: string
+	type: AttachmentType
+	filename: string
+	url: string
+	uploaded: boolean
+}
+
+export type Attachment = { id: string } & AttachmentFields
