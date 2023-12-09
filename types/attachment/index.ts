@@ -4,7 +4,6 @@ export enum AttachmentType {
 }
 
 export type AttachmentFields = {
-	id: string
 	projectId: string
 	type: AttachmentType
 	filename: string
