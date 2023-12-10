@@ -1,6 +1,5 @@
 export enum AttachmentType {
-	image = 100,
-	disconnected = 200
+	image = 100
 }
 
 export type AttachmentFields = {
