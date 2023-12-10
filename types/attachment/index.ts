@@ -8,6 +8,7 @@ export type AttachmentFields = {
 	type: AttachmentType
 	filename: string
 	url: string
+	thumbnailUrl: string
 	uploaded: boolean
 }
 
