@@ -6,8 +6,8 @@ export type AttachmentFields = {
 	projectId: string
 	type: AttachmentType
 	filename: string
-	url: string
-	thumbnailUrl: string
+	url: null | string
+	thumbnailUrl: null | string
 	uploaded: boolean
 }
 
