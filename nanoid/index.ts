@@ -9,7 +9,8 @@ const SIZES = {
 	page: 20,
 	post: 20,
 	project: 10,
-	postVariant: 20
+	postVariant: 20,
+	attachment: 20
 }
 
 export function nanoid (
