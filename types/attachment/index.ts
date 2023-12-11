@@ -8,7 +8,6 @@ export type AttachmentFields = {
 	filename: string
 	url: null | string
 	thumbnailUrl: null | string
-	uploaded: boolean
 }
 
 export type Attachment = { id: string } & AttachmentFields
