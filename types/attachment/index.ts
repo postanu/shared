@@ -5,8 +5,7 @@ export enum AttachmentType {
 export type AttachmentFields = {
 	type: AttachmentType
 	filename: string
-	url: null | string
-	thumbnailUrl: null | string
+	src: string
 }
 
 export type Attachment = { id: string } & AttachmentFields
