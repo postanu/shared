@@ -1,6 +1,6 @@
 {
   "name": "@postanu/shared",
-  "version": "0.18.9",
+  "version": "0.19.0",
   "description": "Postanu shared types and utils library",
   "scripts": {
     "test": "eslint ."
