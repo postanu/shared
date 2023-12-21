@@ -13,7 +13,6 @@ export type PagesGroup = {
 export type PageNetwork = typeof NETWORKS[number]
 
 export type PageFields = {
-	projectId: string
 	name: string
 	network: PageNetwork
 	username: null | string
