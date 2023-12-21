@@ -4,7 +4,8 @@ export enum AttachmentType {
 
 export enum AttachmentState {
 	uploading = 100,
-	uploaded = 200
+	uploaded = 200,
+	failed = 300
 }
 
 export type AttachmentFields = {
