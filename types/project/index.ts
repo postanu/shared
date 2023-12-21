@@ -9,6 +9,7 @@ export type ProjectFields = {
 	timezone: string
 	lastPostDate: null | string
 	pages: string[]
+	members: string[]
 }
 
 export type Project = { id: string } & ProjectFields
