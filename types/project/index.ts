@@ -5,9 +5,8 @@ export enum ProjectMemberRole {
 
 export type ProjectFields = {
 	name: string
-	installed: boolean
 	timezone: string
-	lastPostDate: null | string
+	latestPostDate: null | string
 	pages: string[]
 	members: string[]
 }
