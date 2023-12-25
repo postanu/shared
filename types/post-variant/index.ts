@@ -11,7 +11,6 @@ export type PostVariantFields = {
 	pages: string[]
 	text: string
 	url: string
-	attachments: string[]
 	index: number
 	state: PostVariantState
 }
